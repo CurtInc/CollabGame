@@ -55,11 +55,17 @@ moveSpeedV = (mouse_y - y)/100;
 moveSpeedH = (mouse_x - x)/100;
 vspeed = (move * moveSpeedV)*2;
 hspeed = (move * moveSpeedH)*2;
-if ( hspeed &gt; 2){
-hspeed = 2
+if ( hspeed &gt; 5 ){
+hspeed = 5
 }
-if (vspeed &gt; 2){
-vspeed = 2
+if (hspeed &lt; -5){
+hspeed = -5
+}
+if (vspeed &gt; 5){
+vspeed = 5
+}
+if (vspeed &lt; -5){
+vspeed = -5
 }
 </string>
           </argument>
