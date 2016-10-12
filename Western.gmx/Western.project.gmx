@@ -8,9 +8,10 @@
     <sound>sound\sound0</sound>
   </sounds>
   <sprites name="sprites">
-    <sprite>sprites\sprite0</sprite>
+    <sprite>sprites\Pistol_full</sprite>
     <sprite>sprites\Player_1</sprite>
     <sprite>sprites\sprite2</sprite>
+    <sprite>sprites\Pistol_empty</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Level_1</background>
