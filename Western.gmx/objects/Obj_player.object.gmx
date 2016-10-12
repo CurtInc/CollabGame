@@ -51,7 +51,10 @@ image_angle = direction
             <string>///Movement
 
 move = mouse_check_button(mb_left);
-speed = (move * 5)
+moveSpeedV = (mouse_y - y)/100;
+moveSpeedH = (mouse_x - x)/100;
+vspeed = (move * moveSpeedV)*2;
+hspeed = (move * moveSpeedH)*2;
 </string>
           </argument>
         </arguments>
