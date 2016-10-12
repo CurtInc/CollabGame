@@ -4,10 +4,13 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\sound0</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\sprite0</sprite>
     <sprite>sprites\Player_1</sprite>
+    <sprite>sprites\sprite2</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\Level_1</background>
@@ -15,7 +18,8 @@
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\Obj_player</object>
-    <object>objects\object1</object>
+    <object>objects\obj_pistol</object>
+    <object>objects\Obj_bullet</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
